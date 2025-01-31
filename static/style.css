@@ -4,7 +4,9 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+h1,h2,h3,p,li{
+    padding: 15px;
+}
 footer a,
 p {
     font-size: small;
@@ -13,12 +15,6 @@ p {
 body,
 header {
     width: 100%;
-}
-
-.inteface {
-    display: block;
-    margin: auto;
-    padding: 15px;
 }
 
 a {
@@ -100,6 +96,8 @@ section {
 label {
     display: flex;
     margin: 15px;
+    height: 34px;
+    max-width: 500px;
 }
 
 label p {
