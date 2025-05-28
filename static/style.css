@@ -64,15 +64,18 @@ video {
     margin: auto;
     max-width: 285px;
 }
-
-
+div#interface-cardapio ul {
+    display: flex;
+}
 @media (max-width: 700px) {
     div.flex-mobile {
         display: block;
         margin: auto;
         width: 100%;
     }
-
+ul{
+    display: flex;
+}
     .mais ul,
     .beneficios ul {
         columns: 1;
@@ -119,6 +122,7 @@ button {
     color: black;
     background-color: rgba(137, 43, 226, 0.61);
     border-radius: 15px;
+    margin: 5px;
     padding: 5px;
 }
 
