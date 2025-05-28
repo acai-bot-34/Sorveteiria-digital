@@ -67,15 +67,18 @@ video {
 div#interface-cardapio ul {
     display: flex;
 }
+@media (max-width: 750px) {
+div#interface-cardapio ul {
+    display: block;
+}
+}
 @media (max-width: 700px) {
     div.flex-mobile {
         display: block;
         margin: auto;
         width: 100%;
     }
-ul{
-    display: flex;
-}
+
     .mais ul,
     .beneficios ul {
         columns: 1;
