@@ -45,9 +45,6 @@ ul {
 ul#block-p1 li {
     align-items: center;
 }
-@media (max-width: 800px;){
-
-}
 
 li {
     margin: 15px;
