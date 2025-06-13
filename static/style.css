@@ -45,6 +45,12 @@ ul {
 ul#block-p1 li {
     align-items: center;
 }
+@media (max-width: 750px) {
+   ul#block-p1 li {
+       text-align: center;
+        align-items: center;
+   } 
+}
 
 li {
     margin: 15px;
@@ -79,7 +85,7 @@ div#interface-cardapio ul {
 @media (max-width: 750px) {
     div#interface-cardapio ul {
         display: block;
-    }
+     }
 }
 
 @media (max-width: 700px) {
@@ -140,7 +146,7 @@ button {
 }
 
 section {
-    background-color: rgba(137, 43, 226, 0.205);
+    background-color:#81878C;
 }
 
 .problema {
@@ -170,6 +176,7 @@ picture#logoAcai img {
     display: block;
     margin: auto;
     max-width: 185px;
+    border-bottom: 2px solid rgba(137, 43, 226, 0.61);
 }
 
 #destaque01 {
