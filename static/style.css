@@ -146,10 +146,6 @@ button {
     padding: 5px;
 }
 
-section {
-    background-color: #81878C;
-}
-
 .problema {
     padding: 15px;
 }
@@ -242,12 +238,16 @@ div.p1 h1 {
 
 picture#icone-instagram img {
     display: block;
-    max-width: 65px;
+    max-width: 45px;
     margin: 15px;
 }
 
 picture#icone-facebook img {
     display: block;
-    max-width: 65px;
+    max-width: 45px;
     margin: 15px;
+}
+picture#pergaminho-antigo img{
+    display: block;
+    max-width: 55px;
 }
