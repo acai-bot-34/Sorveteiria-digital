@@ -45,11 +45,12 @@ ul {
 ul#block-p1 li {
     align-items: center;
 }
+
 @media (max-width: 750px) {
-   ul#block-p1 li {
-       text-align: center;
+    ul#block-p1 li {
+        text-align: center;
         align-items: center;
-   } 
+    }
 }
 
 li {
@@ -85,7 +86,7 @@ div#interface-cardapio ul {
 @media (max-width: 750px) {
     div#interface-cardapio ul {
         display: block;
-     }
+    }
 }
 
 @media (max-width: 700px) {
@@ -146,7 +147,7 @@ button {
 }
 
 section {
-    background-color:#81878C;
+    background-color: #81878C;
 }
 
 .problema {
@@ -237,4 +238,16 @@ div.p1 {
 div.p1 h1 {
     margin-top: 50px;
 
+}
+
+picture#icone-instagram img {
+    display: block;
+    max-width: 65px;
+    margin: 15px;
+}
+
+picture#icone-facebook img {
+    display: block;
+    max-width: 65px;
+    margin: 15px;
 }
