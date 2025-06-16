@@ -251,3 +251,11 @@ picture#pergaminho-antigo img{
     display: block;
     max-width: 55px;
 }
+picture#icone-chatbot img{
+      display: block;
+    max-width: 55px;
+}
+picture#icone-cardapio img{
+    display: block;
+    max-width: 55px;
+}
