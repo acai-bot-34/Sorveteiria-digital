@@ -38,20 +38,26 @@ h2 {
     text-align: center;
 }
 
-ul {
+ul#block-p1 img {
+    display: block;
+    max-width: 65px;
+}
+ul li{
     list-style: none;
 }
-
 ul#block-p1 li {
+    display: inline-block;
     text-align: center;
     align-items: center;
-        border-bottom: 2px solid rgba(137, 43, 226, 0.61);
+    border-bottom: 2px solid rgba(137, 43, 226, 0.61);
 }
 
 @media (max-width: 750px) {
     ul#block-p1 li {
         text-align: center;
         align-items: center;
+        list-style: none;
+        display: inline-block;
     }
 }
 
@@ -166,11 +172,6 @@ section#AcaiBot li {
     text-align: center;
 }
 
-div#listaDeSabores img {
-    display: block;
-    max-width: 50px;
-}
-
 picture#logoAcai img {
     display: block;
     margin: auto;
@@ -250,15 +251,18 @@ picture#icone-facebook img {
     max-width: 45px;
     margin: 15px;
 }
-picture#pergaminho-antigo img{
+
+picture#pergaminho-antigo img {
     display: block;
     max-width: 55px;
 }
-picture#icone-chatbot img{
-      display: block;
+
+picture#icone-chatbot img {
+    display: block;
     max-width: 55px;
 }
-picture#icone-cardapio img{
+
+picture#icone-cardapio img {
     display: block;
     max-width: 55px;
 }
