@@ -192,7 +192,15 @@ a {
 }
 
 form {
+    max-width: 500px;
+    margin: auto;
     padding: 15px;
+}
+.select-form img{
+    border-radius: 15px;
+.select-form img, button{
+display: block;
+margin: auto;
 }
 
 div#select {

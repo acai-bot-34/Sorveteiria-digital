@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../static/style.css">
     <link rel="shortcut icon" href="../static/logo Acai.png" type="image/x-icon">
     <title>Sabores de Sorvete</title>
-</head>
+</head> 
 
 <body>
     <header>
@@ -20,7 +20,31 @@
             <img src="../static/logo Acai.png" alt="">
         </picture>
     </header>
-    <h1>escolha de Doce de Leite</h1>
+        <form action="" method="post">
+<img src="../static/img select doce de leite.jfif" alt="">
+<h2>Doce de Leite</h2>
+<div class="flex">
+    <button>Adicionar ao carrinho</button>
+    <button>Voltar ao cardapio</button>
+</div>
+    </form>
+       <footer>
+        <p>
+            <a href="https://pablo-kennediy.github.io/curriculo/" style="color: black;">
+                Todos os direitos reservados | infoprodutos.org © <p id="data-hoje"></p>
+            </a>
+            <script>
+                const dataAtual = new Date();
+                const opcoesFormatacao = { year: 'numeric' };
+                const dataFormatada = dataAtual.toLocaleDateString('pt-BR', opcoesFormatacao);
+                const elementoData = document.getElementById('data-hoje');
+                if (elementoData) {
+                    elementoData.textContent = dataFormatada;
+                }
+            </script>
+
+        </p>
+    </footer>
 </body>
 
 </html>
